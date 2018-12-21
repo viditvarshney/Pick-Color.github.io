@@ -1,15 +1,11 @@
+@import "colors";
+
 body {
-	height: 100%;
-	width: 100%;
-	background-image: linear-gradient(
-		to top,
-		rgba(0,45,75,0.1), 
-		rgba(0, 0, 0, 0.2)
-	), 
-	url('../images/about.jpg');
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center center;
+		@include colors("../images/about.jpg");
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center center;
+		
 	h1 {
 		color: #fff;
 		margin-left: 660px;
@@ -27,13 +23,16 @@ body {
 
 	}
 	p.intro {
-		background-color: #c1c1c1;
+		
 		width: 900px;
 		height: 300px;
 		color: bisque;
 		margin-left: 359px;
 		font-size: 28px;
 		text-align: justify;
+		border: 5px rgba(241, 50, 50, 0.363) solid;
+		border-radius: 9px;
+		padding: 10px;
 	}
 	.myimage {
 		
@@ -41,7 +40,7 @@ body {
 		width: 350px;
 		margin-top: -415px;
 		background-image: url('../images/my\ pic.jpg');
-		border: 5px rgb(51, 51, 51) solid;
+		border: 5px rgba(236, 122, 122, 0.753) solid;
 		border-radius: 15px;
 	}
 	

@@ -1,29 +1,42 @@
+@import "colors";
 
-.container-fluid {
-	height: 2.5em;
-	
-	.navbar-brand {
-		text-decoration: none;
-		color: #fff;
-		height: 2.2em;
-		font-size: 25px;
-		float: left;
-		border-right: solid 1px gray;
-		text-align: center;
-		padding-right: 50px;
-	
-	}
-	ul {
-		li {
+body {
+	@include colors('../images/indexcover.jpeg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	.container-fluid {
+		height: 2.5em;
+		
+		.navbar-brand {
+			text-decoration: none;
+			color: #fff;
+			height: 2.2em;
+			font-size: 25px;
+			float: left;
 			border-right: solid 1px gray;
-			padding:0px 50px;
 			text-align: center;
-			font-size: 15px;
-			a {
-				background-color: black;
-			}
-			
+			padding-right: 50px;
+		
 		}
-
-	}	
+		ul {
+			li {
+				border-right: solid 1px gray;
+				padding:0px 50px;
+				text-align: center;
+				font-size: 15px;
+				a {
+					background-color: black;
+				}
+				
+			}
+	
+		}	
+		
+	}
+	#heading {
+		text-align: center;
+		font-size: 24px;
+		color: #fff;
+	}
 }

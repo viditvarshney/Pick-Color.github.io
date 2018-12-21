@@ -1,8 +1,18 @@
-.container-fluid {
+body {
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 45, 75, 0.6)), to(rgba(0, 0, 0, 0.2))), url("../images/indexcover.jpeg");
+  background-image: linear-gradient(to top, rgba(0, 45, 75, 0.6), rgba(0, 0, 0, 0.2)), url("../images/indexcover.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+body .container-fluid {
   height: 2.5em;
 }
 
-.container-fluid .navbar-brand {
+body .container-fluid .navbar-brand {
   text-decoration: none;
   color: #fff;
   height: 2.2em;
@@ -13,14 +23,20 @@
   padding-right: 50px;
 }
 
-.container-fluid ul li {
+body .container-fluid ul li {
   border-right: solid 1px gray;
   padding: 0px 50px;
   text-align: center;
   font-size: 15px;
 }
 
-.container-fluid ul li a {
+body .container-fluid ul li a {
   background-color: black;
+}
+
+body #heading {
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,10 @@
+@mixin colors($location) {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(
+		to top,
+		rgba(0,45,75,0.6), 
+		rgba(0, 0, 0, 0.2)
+	),
+	url($location);
+}
