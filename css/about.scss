@@ -1,12 +1,50 @@
 body {
 	height: 100%;
 	width: 100%;
-	background-image: url('../images/about.jpg');
-	background-repeat: no-repeat;
+	background-image: linear-gradient(
+		to top,
+		rgba(0,45,75,0.1), 
+		rgba(0, 0, 0, 0.2)
+	), 
+	url('../images/about.jpg');
+	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
 	h1 {
 		color: #fff;
-		text-align: center;
+		margin-left: 660px;
+		margin-top: 55px;
+		
+		text-decoration: underline;
 	}
+	h3 {
+		color: bisque;
+		margin-left: 580px;
+		span {
+			font-size: 35px;
+			color: aquamarine
+		}
+
+	}
+	p.intro {
+		background-color: #c1c1c1;
+		width: 900px;
+		height: 300px;
+		color: bisque;
+		margin-left: 359px;
+		font-size: 28px;
+		text-align: justify;
+	}
+	.myimage {
+		
+		height: 409px;
+		width: 350px;
+		margin-top: -415px;
+		background-image: url('../images/my\ pic.jpg');
+		border: 5px rgb(51, 51, 51) solid;
+		border-radius: 15px;
+	}
+	
+		
+	
 }
