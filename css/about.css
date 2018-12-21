@@ -1,0 +1,14 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+body h1 {
+  color: #fff;
+  text-align: center;
+}
+/*# sourceMappingURL=about.css.map */
