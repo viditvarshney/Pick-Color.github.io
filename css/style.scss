@@ -5,6 +5,14 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
+	.navbar {
+		overflow: hidden;
+		position: fixed;
+		
+		opacity: 0.6;
+		
+		width: 100%;
+	}
 	.container-fluid {
 		height: 2.5em;
 		
@@ -13,11 +21,15 @@ body {
 			color: #fff;
 			height: 2.2em;
 			font-size: 25px;
+				
 			float: left;
 			border-right: solid 1px gray;
 			text-align: center;
 			padding-right: 50px;
 		
+		}
+		.navbar-brand:hover {
+			background-color: brown;
 		}
 		ul {
 			li {
@@ -37,6 +49,43 @@ body {
 	#heading {
 		text-align: center;
 		font-size: 24px;
+		padding-top: 90px;
 		color: #fff;
+	}
+
+	footer {
+		border-top: 3px solid Black;
+		@include colors('../images/footerimage.jpg');
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center center;
+		height: 450px;
+		width: 100%;
+		position: relative;
+		top: 700px;
+		a {
+			color: #0352A9;
+			text-decoration: none;
+			b {
+				letter-spacing: 2.5px;
+				font-size: 15px;
+			}
+		}
+		a:hover {
+			opacity: 0.9;
+			text-decoration: none;
+		}
+		p {
+			padding-left: 600px;
+			padding-top: 400px;
+			color: #fff;
+		}
+		#social {
+			position: relative;
+			top: -780px;
+			left: 370px;
+			font-size: 3rem;
+			font-family: 'Rajdhani', sans-serif;
+		}
 	}
 }

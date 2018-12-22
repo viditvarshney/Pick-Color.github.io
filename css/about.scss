@@ -1,16 +1,17 @@
 @import "colors";
 
 body {
-		@include colors("../images/about.jpg");
-		background-attachment: fixed;
-		background-size: cover;
-		background-position: center center;
-		
+	@include colors("../images/about.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+
+	
 	h1 {
 		color: #fff;
 		margin-left: 660px;
-		margin-top: 55px;
-		
+		padding-top: 105px;
+		margin-top: 0px;
 		text-decoration: underline;
 	}
 	h3 {

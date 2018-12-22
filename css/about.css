@@ -11,7 +11,8 @@ body {
 body h1 {
   color: #fff;
   margin-left: 660px;
-  margin-top: 55px;
+  padding-top: 105px;
+  margin-top: 0px;
   text-decoration: underline;
 }
 
