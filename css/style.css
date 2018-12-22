@@ -90,9 +90,16 @@ body footer p {
 
 body footer #social {
   position: relative;
-  top: -780px;
-  left: 370px;
+  top: -820px;
+  padding-left: 1090px;
   font-size: 3rem;
   font-family: 'Rajdhani', sans-serif;
+}
+
+body footer h4 {
+  position: relative;
+  top: -820px;
+  padding-left: 1120px;
+  color: wheat;
 }
 /*# sourceMappingURL=style.css.map */
