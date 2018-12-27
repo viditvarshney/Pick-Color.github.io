@@ -42,7 +42,7 @@ body .container-fluid ul li {
 }
 
 body .container-fluid ul li a {
-  background-color: black;
+  text-decoration: none;
 }
 
 body #heading {
@@ -50,56 +50,5 @@ body #heading {
   font-size: 24px;
   padding-top: 90px;
   color: #fff;
-}
-
-body footer {
-  border-top: 3px solid Black;
-  height: 100%;
-  width: 100%;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 45, 75, 0.6)), to(rgba(0, 0, 0, 0.2))), url("../images/footerimage.jpg");
-  background-image: linear-gradient(to top, rgba(0, 45, 75, 0.6), rgba(0, 0, 0, 0.2)), url("../images/footerimage.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  height: 450px;
-  width: 100%;
-  position: relative;
-  top: 700px;
-}
-
-body footer a {
-  color: #0352A9;
-  text-decoration: none;
-}
-
-body footer a b {
-  letter-spacing: 2.5px;
-  font-size: 15px;
-}
-
-body footer a:hover {
-  opacity: 0.9;
-  text-decoration: none;
-}
-
-body footer p {
-  padding-left: 600px;
-  padding-top: 400px;
-  color: #fff;
-}
-
-body footer #social {
-  position: relative;
-  top: -820px;
-  padding-left: 1090px;
-  font-size: 3rem;
-  font-family: 'Rajdhani', sans-serif;
-}
-
-body footer h4 {
-  position: relative;
-  top: -820px;
-  padding-left: 1120px;
-  color: wheat;
 }
 /*# sourceMappingURL=style.css.map */
