@@ -57,5 +57,88 @@ body {
 		color: #fff;
 	}
 
+	//Make the color-shade nav bar for different color shades
+
+	.color-box-container {
+		margin-top: 65px;
+		
+		.color-box {
+			margin: 0px 0px 9px 5px;
+			display: inline-block;
+			width: 250px;
+			height: 150px;
+			background-color: #fff;
+			border: 2px solid darkgoldenrod;
+			border-radius: 8px;
+			.hex-number {
+				position: relative;
+				top:55px;
+				left: 55px;
+				font-size: 30px;
+				font-weight: bold;
+			}
+		}
+	}
+
+	footer {
+		border-top: 3px solid Black;
+		@include colors('../images/footerimage.jpg');
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center center;
+		height: 350px;
+		position: relative;
+		top: 500px;
 	
+	
+		#social {
+			position: relative;
+			top: 25px;
+			padding-left: 1050px;
+			letter-spacing: 3px;
+			font-size: 3rem;                                    //this is for social heading & subheading
+			color: #fff;
+			font-family: 'Rajdhani', sans-serif;
+		}
+		
+		#profile { 
+			
+			display: inline-block;
+				
+			li {
+				margin: 15px;
+				color: #fff;
+				display: inline-block;
+				font-size: 30px;
+				
+				i {
+					color: #fff;
+					position: relative;
+					left: 1025px;;
+					top: 35px;
+				}
+			}	
+		}
+		
+		p.lastline {
+			color: #fff;
+			text-align: center;
+			margin-top: 140px;
+			.fa-heart {
+				color: red;
+			}
+			.fa-mug-hot {
+				color: gray;
+			}
+			a {
+				color: palevioletred;
+				letter-spacing: 2px;
+				text-decoration: none;
+			}
+			a:hover {
+				opacity: 0.8;
+				
+			}
+		}
+	}
 }

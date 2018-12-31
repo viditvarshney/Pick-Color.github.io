@@ -51,4 +51,92 @@ body #heading {
   padding-top: 90px;
   color: #fff;
 }
+
+body .color-box-container {
+  margin-top: 65px;
+}
+
+body .color-box-container .color-box {
+  margin: 0px 0px 9px 5px;
+  display: inline-block;
+  width: 250px;
+  height: 150px;
+  background-color: #fff;
+  border: 2px solid darkgoldenrod;
+  border-radius: 8px;
+}
+
+body .color-box-container .color-box .hex-number {
+  position: relative;
+  top: 55px;
+  left: 55px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+body footer {
+  border-top: 3px solid Black;
+  height: 100%;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 45, 75, 0.6)), to(rgba(0, 0, 0, 0.2))), url("../images/footerimage.jpg");
+  background-image: linear-gradient(to top, rgba(0, 45, 75, 0.6), rgba(0, 0, 0, 0.2)), url("../images/footerimage.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 350px;
+  position: relative;
+  top: 500px;
+}
+
+body footer #social {
+  position: relative;
+  top: 25px;
+  padding-left: 1050px;
+  letter-spacing: 3px;
+  font-size: 3rem;
+  color: #fff;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+body footer #profile {
+  display: inline-block;
+}
+
+body footer #profile li {
+  margin: 15px;
+  color: #fff;
+  display: inline-block;
+  font-size: 30px;
+}
+
+body footer #profile li i {
+  color: #fff;
+  position: relative;
+  left: 1025px;
+  top: 35px;
+}
+
+body footer p.lastline {
+  color: #fff;
+  text-align: center;
+  margin-top: 140px;
+}
+
+body footer p.lastline .fa-heart {
+  color: red;
+}
+
+body footer p.lastline .fa-mug-hot {
+  color: gray;
+}
+
+body footer p.lastline a {
+  color: palevioletred;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+body footer p.lastline a:hover {
+  opacity: 0.8;
+}
 /*# sourceMappingURL=style.css.map */
