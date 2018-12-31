@@ -75,17 +75,19 @@ body {
 			display: inline-block;
 			width: 250px;
 			height: 150px;
-			background-color: #fff;
+			color: #fff;
 			border: 2px solid darkgoldenrod;
 			border-radius: 8px;
 			.hex-number {
 				position: relative;
 				top:55px;
-				left: 55px;
-				font-size: 30px;
+				left: 85px;
+				font-size: 15px;
+				letter-spacing: 1px;
 				font-weight: bold;
 			}
 		}
+		
 	}
 
 	footer {
