@@ -15,14 +15,9 @@ body .navbar {
   width: 100%;
 }
 
-body .container-fluid {
-  height: 2.5em;
-}
-
 body .container-fluid .navbar-brand {
   text-decoration: none;
   color: #fff;
-  height: 2.2em;
   font-size: 25px;
   float: left;
   border-right: solid 1px gray;
@@ -48,12 +43,19 @@ body .container-fluid ul li a {
 body #heading {
   text-align: center;
   font-size: 24px;
-  padding-top: 90px;
+  padding-top: 70px;
   color: #fff;
 }
 
 body .color-box-container {
   margin-top: 65px;
+}
+
+body .color-box-container #mostly-used {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin: 7px;
 }
 
 body .color-box-container .color-box {
@@ -85,7 +87,7 @@ body footer {
   background-position: center center;
   height: 350px;
   position: relative;
-  top: 500px;
+  top: 60px;
 }
 
 body footer #social {

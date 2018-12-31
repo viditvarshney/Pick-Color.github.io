@@ -6,6 +6,7 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
+	
 	.navbar {
 		overflow: hidden;
 		position: fixed;
@@ -15,12 +16,12 @@ body {
 		width: 100%;
 	}
 	.container-fluid {
-		height: 2.5em;
+		
 		
 		.navbar-brand {
 			text-decoration: none;
 			color: #fff;
-			height: 2.2em;
+			
 			font-size: 25px;
 				
 			float: left;						// our LOGO
@@ -42,6 +43,7 @@ body {
 				font-size: 15px;
 				a {
 					text-decoration: none;
+					
 				}
 				
 				
@@ -53,7 +55,7 @@ body {
 	#heading {
 		text-align: center;
 		font-size: 24px;
-		padding-top: 90px;
+		padding-top: 70px;
 		color: #fff;
 	}
 
@@ -62,6 +64,12 @@ body {
 	.color-box-container {
 		margin-top: 65px;
 		
+		#mostly-used {
+			font-size: 30px;
+			color: #fff;
+			text-align: center;
+			margin: 7px;
+		}
 		.color-box {
 			margin: 0px 0px 9px 5px;
 			display: inline-block;
@@ -87,8 +95,8 @@ body {
 		background-size: cover;
 		background-position: center center;
 		height: 350px;
-		position: relative;
-		top: 500px;
+		position: relative;                               // Footer Height 
+		top: 60px;
 	
 	
 		#social {
