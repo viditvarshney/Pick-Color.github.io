@@ -78,6 +78,8 @@ body .color-box-container .color-box .hex-number {
 }
 
 body .color-box-container .color-box:hover {
+  -webkit-box-shadow: 2px 3px 8px red;
+          box-shadow: 2px 3px 8px red;
   cursor: pointer;
 }
 
