@@ -77,6 +77,10 @@ body .color-box-container .color-box .hex-number {
   font-weight: bold;
 }
 
+body .color-box-container .color-box:hover {
+  cursor: pointer;
+}
+
 body footer {
   border-top: 3px solid Black;
   height: 100%;
