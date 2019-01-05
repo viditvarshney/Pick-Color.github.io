@@ -78,6 +78,7 @@ body {
 			color: #fff;
 			border: 2px solid darkgoldenrod;
 			border-radius: 8px;
+			
 			.hex-number {
 				position: relative;
 				top:55px;
@@ -88,8 +89,8 @@ body {
 			}
 		}
 		.color-box:hover {
-			box-shadow: 2px 3px 8px red;
-			
+			box-shadow: 5px 5px 12px red;
+			transform: scale(1.2, 1.2);
 			cursor: pointer;
 		}
 	}
