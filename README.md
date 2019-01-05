@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 =======
 # Color - Picker
 > Make you Website Beautiful
@@ -33,5 +33,4 @@ Want To *Contribute*
 - Create the issue
 - work on it
 
-*Star the Repository*
->>>>>>> 3e561068ab9d04b1aa820961e4c57d3034135d09
+*Star the Repository* 
