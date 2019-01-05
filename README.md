@@ -1,11 +1,9 @@
-
-=======
 # Color - Picker
 > Make you Website Beautiful
 
 ***
 
-[Website](https://awesomecolors.ml)
+Take a  Demo : [Website](https://awesomecolors.ml)
 
 ![](https://user-images.githubusercontent.com/34159717/50720833-da20ac00-10da-11e9-9809-d64d5712a43d.JPG)
 
