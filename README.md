@@ -1,5 +1,5 @@
 # Color - Picker
-> Make you Website Beautiful
+> Make your Website Beautiful
 
 ***
 
