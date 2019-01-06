@@ -6,6 +6,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  max-width: 1350px;
+  float: left;
 }
 
 body .navbar {

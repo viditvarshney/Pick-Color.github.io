@@ -1,18 +1,16 @@
 @import "colors";
 
-
 body {
 	@include colors('../images/indexcover.jpeg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
-	
+	max-width: 1350px;
+	float: left;
 	.navbar {
 		overflow: hidden;
 		position: fixed;
-		
 		opacity: 0.6;
-		
 		width: 100%;
 	}
 	.container-fluid {
@@ -94,6 +92,7 @@ body {
 			cursor: pointer;
 		}
 	}
+	
 
 	footer {
 		border-top: 3px solid Black;
@@ -156,4 +155,5 @@ body {
 			}
 		}
 	}
+	
 }
