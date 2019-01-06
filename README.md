@@ -1,11 +1,9 @@
-<<<<<<< HEAD
-=======
 # Color - Picker
-> Make you Website Beautiful
+> Make your Website Beautiful
 
 ***
 
-[Website](https://awesomecolors.ml)
+Take a  Demo : [Website](https://awesomecolors.ml)
 
 ![](https://user-images.githubusercontent.com/34159717/50720833-da20ac00-10da-11e9-9809-d64d5712a43d.JPG)
 
@@ -33,5 +31,4 @@ Want To *Contribute*
 - Create the issue
 - work on it
 
-*Star the Repository*
->>>>>>> 3e561068ab9d04b1aa820961e4c57d3034135d09
+*Star the Repository* 
