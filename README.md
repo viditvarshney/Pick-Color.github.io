@@ -37,3 +37,12 @@ Want To *Contribute*
 - work on it
 
 *Star the Repository* 
+
+***
+
+### Contact
+> Let's Become Friend 
+- [Twitter](https://twitter.com/varshney_vidit)
+- [Github](https://github.com/viditvarshney)
+- [Facebook](https://www.facebook.com/vidit.varshney222)
+- [Linkedin](https://www.linkedin.com/in/vidit-varshney/)
