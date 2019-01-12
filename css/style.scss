@@ -88,7 +88,7 @@ body {
 		}
 		.color-box:hover {
 			box-shadow: 5px 5px 12px red;
-			transform: scale(1.2, 1.2);
+			transform: scale(1.2, 1.2);					//transform scale
 			cursor: pointer;
 		}
 	}
@@ -153,6 +153,12 @@ body {
 				opacity: 0.8;
 				
 			}
+		}
+		#copyright {
+			color: #fff;
+			position: absolute;
+			top: 317px;
+			left: 1090px;
 		}
 	}
 	

@@ -152,4 +152,11 @@ body footer p.lastline a {
 body footer p.lastline a:hover {
   opacity: 0.8;
 }
+
+body footer #copyright {
+  color: #fff;
+  position: absolute;
+  top: 317px;
+  left: 1090px;
+}
 /*# sourceMappingURL=style.css.map */
