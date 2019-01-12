@@ -128,8 +128,8 @@ body {
 				i {
 					color: #fff;
 					position: relative;
-					left: 1025px;;
-					top: 35px;
+					left: 475px;;
+					top: 105px;
 				}
 			}	
 		}
@@ -137,7 +137,7 @@ body {
 		p.lastline {
 			color: #fff;
 			text-align: center;
-			margin-top: 140px;
+			margin-top: 231px;
 			.fa-heart {
 				color: red;
 			}
@@ -160,6 +160,21 @@ body {
 			top: 317px;
 			left: 1090px;
 		}
+		ul {
+			position: absolute;
+			top: 30px;
+			left: 550px;
+			font-size: 15px;
+			a {
+				color: #fff;
+			}
+			a:hover {
+				border-radius: 20px;;
+				
+			}
+		}
+		
+		
 	}
 	
 }

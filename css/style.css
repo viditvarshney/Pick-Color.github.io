@@ -125,14 +125,14 @@ body footer #profile li {
 body footer #profile li i {
   color: #fff;
   position: relative;
-  left: 1025px;
-  top: 35px;
+  left: 475px;
+  top: 105px;
 }
 
 body footer p.lastline {
   color: #fff;
   text-align: center;
-  margin-top: 140px;
+  margin-top: 231px;
 }
 
 body footer p.lastline .fa-heart {
@@ -158,5 +158,20 @@ body footer #copyright {
   position: absolute;
   top: 317px;
   left: 1090px;
+}
+
+body footer ul {
+  position: absolute;
+  top: 30px;
+  left: 550px;
+  font-size: 15px;
+}
+
+body footer ul a {
+  color: #fff;
+}
+
+body footer ul a:hover {
+  border-radius: 20px;
 }
 /*# sourceMappingURL=style.css.map */
