@@ -31,7 +31,8 @@ The use of it is as simple as it looks , Just click on the color and it's hex co
 
 Want To *Contribute*
 
-- Just Fork this Project
+- Star the **Repository**
+- Fork this Project
 - Clone to your System
 - Create the issue
 - work on it
