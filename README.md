@@ -25,9 +25,6 @@ The use of it is as simple as it looks , Just click on the color and it's hex co
 
 ***
 
-### I Just Use to make it -- __HTML , SASS , JavaScript__
-
-***
 
 Want To *Contribute*
 
