@@ -51,6 +51,7 @@ body #heading {
 
 body .color-box-container {
   margin-top: 65px;
+  text-align: center;
 }
 
 body .color-box-container #mostly-used {
@@ -68,22 +69,23 @@ body .color-box-container .color-box {
   color: #fff;
   border: 2px solid darkgoldenrod;
   border-radius: 8px;
+  transition: all .2s;
 }
 
 body .color-box-container .color-box .hex-number {
   position: relative;
   top: 55px;
-  left: 85px;
+  /* left: 85px; */
   font-size: 15px;
   letter-spacing: 1px;
   font-weight: bold;
 }
 
 body .color-box-container .color-box:hover {
-  -webkit-box-shadow: 5px 5px 12px red;
-          box-shadow: 5px 5px 12px red;
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  -webkit-box-shadow: 0px 5px 25px rgba(255, 0, 0, 0.794);
+          box-shadow: 0px 5px 25px rgba(255, 0, 0, 0.801);
+  -webkit-transform: scale(1.15, 1.15);
+          transform: scale(1.15, 1.15);
   cursor: pointer;
 }
 

@@ -61,6 +61,7 @@ body {
 
 	.color-box-container {
 		margin-top: 65px;
+		text-align: center;
 		
 		#mostly-used {
 			font-size: 30px;
@@ -76,19 +77,20 @@ body {
 			color: #fff;
 			border: 2px solid darkgoldenrod;
 			border-radius: 8px;
+			transition: all .2s;
 			
 			.hex-number {
 				position: relative;
 				top:55px;
-				left: 85px;
+				// left: 85px;
 				font-size: 15px;
 				letter-spacing: 1px;
 				font-weight: bold;
 			}
 		}
 		.color-box:hover {
-			box-shadow: 5px 5px 12px red;
-			transform: scale(1.2, 1.2);					//transform scale
+			box-shadow: 0px 5px 25px rgba(255, 0, 0, 0.801);
+			transform: scale(1.15, 1.15);					//transform scale
 			cursor: pointer;
 		}
 	}
