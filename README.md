@@ -33,6 +33,7 @@ Want To *Contribute*
 - Clone to your System
 - Create the issue
 - work on it
+- Create a Pull Request
 
 *Star the Repository* 
 
