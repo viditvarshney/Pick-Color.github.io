@@ -89,6 +89,15 @@ body .color-box-container .color-box:hover {
   cursor: pointer;
 }
 
+body .color-box-container a {
+  display: inline-block;
+}
+
+body .color-box-container a embed {
+  margin-top: 10px;
+  pointer-events: none;
+}
+
 body footer {
   border-top: 3px solid Black;
   height: 100%;
