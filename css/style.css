@@ -90,12 +90,13 @@ body .color-box-container .color-box:hover {
 }
 
 body .color-box-container a {
-  display: inline-block;
+  display: inline;
 }
 
-body .color-box-container a embed {
-  margin-top: 10px;
-  pointer-events: none;
+body .color-box-container a img {
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
 }
 
 body footer {

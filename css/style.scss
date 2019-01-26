@@ -94,10 +94,11 @@ body {
 			cursor: pointer;
 		}
 		a{
-			display: inline-block;
-			embed{
-				margin-top: 10px;
-				pointer-events: none;
+			display: inline;
+			img {
+				width: 500px;
+				height: 500px;
+				margin-top: 50px;
 			}
 		}
 	}
