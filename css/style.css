@@ -6,7 +6,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  max-width: 1350px;
+  max-width: 1550px;
   float: left;
 }
 
@@ -108,7 +108,7 @@ body footer {
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
-  height: 350px;
+  height: auto;
   position: relative;
   top: 60px;
 }
