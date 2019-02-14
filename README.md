@@ -64,3 +64,8 @@ Add any other context or screenshots about the feature request here.
 - [Github](https://github.com/viditvarshney)
 - [Facebook](https://www.facebook.com/vidit.varshney222)
 - [Linkedin](https://www.linkedin.com/in/vidit-varshney/)
+
+***
+
+### LICENSE
+> This Project [Pick-Color](https://github.com/viditvarshney/Pick-Color) Licenced under [GNU](https://github.com/viditvarshney/Pick-Color/blob/master/LICENSE)
